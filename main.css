@@ -1,0 +1,56 @@
+* {
+    background-color: honeydew;
+}
+
+form {
+    align-content: center;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-small;
+}
+
+#user {
+    background-color: aquamarine;
+}
+
+.login_form{
+    /* margin: 0 auto;
+    height: 25%;
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center; */
+    border: 1px solid green;
+    width: 300px;
+    height: 300px;
+    margin: 10% auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+input {
+    width: 155px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#login_button{
+    color: aliceblue;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#login_button:hover{
+    box-shadow: 15px green;
+    background: rgb(209, 27, 170);
+    background: linear-gradient(90deg, rgb(25, 36, 0) 10%, rgb(178, 189, 31) 35%, rgba(0,212,255,1) 100%);
+}
